@@ -1,0 +1,89 @@
+html{
+    background-color: #34495E;
+}
+header{
+    background-image: linear-gradient(#023256,#453819);
+    background-repeat: no-repeat;
+    margin: auto;
+    display: block;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #87A79B;
+    display: block;
+    margin: 30px;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar a{
+    color: red;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.nav-bar a:hover{
+    background-color: white;
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+}
+header h3{
+    text-align: center;
+    font-size: 30px;
+}
+.row{
+    display: flex;
+}
+.sidebar{
+    width: 25%;
+    background-color: #85929E ;
+    padding: 20px;
+    border: solid 2px #2E4053 ;
+
+}
+.main-image{
+    display: block;
+    width: 100%;
+    border: solid 2px #344954;
+    height: auto;
+}
+.academic,.academic-heading{
+    display: flex;
+    box-sizing: border-box;
+    background-color: #6F5E6F ;
+    border: solid , 2px , #34495E;
+}
+
+.col1 , .col2 , .col3{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+}
+.btn {
+    background-color: #808B96;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+  }
+  .Profile{
+    background-color: #85929E;
+  }
+  .OJ{
+      display: flex;
+  }
+  .Pro-Head{
+      display: block;
+      padding: 5px;
+      box-sizing: border-box;
+  }
